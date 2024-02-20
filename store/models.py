@@ -1,4 +1,5 @@
 from django.db import models
+from datetime import date
 
 # models.py
 
@@ -29,6 +30,10 @@ class Employee(models.Model):
     hire_date = models.DateField(null=True, blank=True)
     end_date = models.DateField(null=True, blank=True)
     birth_date = models.DateField(null=True, blank=True)
+
+    def under_18(self):
+        today = date.today()
+        return (today - self.birth_date).days < 18*365
 
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
