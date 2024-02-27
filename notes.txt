@@ -1,0 +1,14 @@
+{
+  "connectionString": "postgresql://violentsnipe6:QmxqT7ZKdohhtPl5vbiwhA@hobo-server.postgres.database.azure.com/hobo_db?sslmode=require",
+  "databaseName": "hobo_db",
+  "firewallName": "AllowAll_2024-2-22_10-6-58",
+  "host": "hobo-server.postgres.database.azure.com",
+  "id": "/subscriptions/1858811b-5ec2-4d93-b5d5-013acbde6ded/resourceGroups/hobo-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/hobo-server",
+  "location": "West US",
+  "password": "QmxqT7ZKdohhtPl5vbiwhA",
+  "resourceGroup": "hobo-rg",
+  "skuname": "Standard_D2s_v3",
+  "username": "violentsnipe6",
+  "version": "13"
+}
+

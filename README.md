@@ -23,5 +23,5 @@ These instructions will get you a copy of the project up and running on your loc
 The application should now be running at http://localhost:8000.
 
 ## Usage
-Once the server is running, you can navigate to http://localhost:8000 in your web browser to use the django-admin. Enter in your username and password
+Once the server is running, you can navigate to http://localhost:8000 in your web browser to use the django-admin. Enter in your username and password.
 Also run tests with the pytest command.
